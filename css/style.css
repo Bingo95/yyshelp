@@ -1,0 +1,90 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+div {
+  width: 100%;
+}
+p {
+  text-align: center;
+  font-size: 15px;
+}
+i {
+  color: red;
+  font-style: normal;
+  font-size: 14px;
+}
+img {
+  width: 85%;
+  max-width: 500px;
+}
+.yys-title {
+  text-align: center;
+}
+.yys-title p {
+  font-size: 23px;
+  font-weight: bold;
+}
+.yys-imgbox {
+  padding-top: 10px;
+}
+.yys-imgbox p {
+  text-align: start;
+  font-size: 13px;
+  color: blue;
+}
+.yys-nav {
+  width: 100%;
+  position: fixed;
+  background-color: rgba(154, 156, 156, 0.84);
+  bottom: 0;
+  padding: 5px 5px;
+}
+.yys-nav a {
+  background-color: #3bb3e0;
+  padding: 0 2%;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.81rem;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  background-image: linear-gradient(bottom, #2ca0ca 0%, #3eb8e5 100%);
+  background-image: -o-linear-gradient(bottom, #2ca0ca 0%, #3eb8e5 100%);
+  background-image: -moz-linear-gradient(bottom, #2ca0ca 0%, #3eb8e5 100%);
+  background-image: -webkit-linear-gradient(bottom, #2ca0ca 0%, #3eb8e5 100%);
+  background-image: -ms-linear-gradient(bottom, #2ca0ca 0%, #3eb8e5 100%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #2ca0ca), color-stop(1, #3eb8e5));
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+  -moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+  -o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+  box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+}
+.yys-nav a:active {
+  top: 0px;
+  background-image: linear-gradient(bottom, #3eb8e5 0%, #2ca0ca 100%);
+  background-image: -o-linear-gradient(bottom, #3eb8e5 0%, #2ca0ca 100%);
+  background-image: -moz-linear-gradient(bottom, #3eb8e5 0%, #2ca0ca 100%);
+  background-image: -webkit-linear-gradient(bottom, #3eb8e5 0%, #2ca0ca 100%);
+  background-image: -ms-linear-gradient(bottom, #3eb8e5 0%, #2ca0ca 100%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #3eb8e5), color-stop(1, #2ca0ca));
+  -webkit-box-shadow: inset 0px 4px 1px #0b698b, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+  -moz-box-shadow: inset 0px 4px 1px #0b698b, 0px 2px 0px 1px #156785, 0px 5px 3px #999;
+  -o-box-shadow: inset 0px 4px 1px #0b698b, 0px 2px 0px 1px #156785, 0px 5px 3px #999;
+  box-shadow: inset 0px 4px 1px #0b698b, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+}
+.yys-nav a + a {
+  margin: 5px 0;
+}
+/*# sourceMappingURL=./style.css.map */
