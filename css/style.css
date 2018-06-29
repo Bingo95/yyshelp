@@ -42,9 +42,10 @@ img {
   bottom: 0;
   padding: 5px 5px;
 }
-.yys-nav a {
-  background-color: #3bb3e0;
-  padding: 0 2%;
+.yys-nav>a,
+.btn-group {
+  /* background-color: #3bb3e0; */
+  width: auto;
   display: inline-block;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.81rem;
@@ -54,13 +55,13 @@ img {
   position: relative;
   padding-bottom: 5px;
   padding-top: 5px;
-  background-image: linear-gradient(bottom, #2ca0ca 0%, #3eb8e5 100%);
+  /* background-image: linear-gradient(bottom, #2ca0ca 0%, #3eb8e5 100%);
   background-image: -o-linear-gradient(bottom, #2ca0ca 0%, #3eb8e5 100%);
   background-image: -moz-linear-gradient(bottom, #2ca0ca 0%, #3eb8e5 100%);
   background-image: -webkit-linear-gradient(bottom, #2ca0ca 0%, #3eb8e5 100%);
   background-image: -ms-linear-gradient(bottom, #2ca0ca 0%, #3eb8e5 100%);
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #2ca0ca), color-stop(1, #3eb8e5));
-  -webkit-border-bottom-right-radius: 5px;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #2ca0ca), color-stop(1, #3eb8e5)); */
+  /* -webkit-border-bottom-right-radius: 5px;
   -webkit-border-bottom-left-radius: 5px;
   -moz-border-radius-bottomright: 5px;
   -moz-border-radius-bottomleft: 5px;
@@ -69,9 +70,22 @@ img {
   -webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
   -moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
   -o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
-  box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+  box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999; */
 }
-.yys-nav a:active {
+
+/* .yys-nav .btn{
+  padding: 0 !important;
+  border: none !important;
+  font-size: 0.81rem !important;
+  color: #fff;
+  background-color: #2fa4cf;
+} */
+
+.aaaa{
+  padding: 4px 12px;
+}
+
+.yys-nav>a:active {
   top: 0px;
   background-image: linear-gradient(bottom, #3eb8e5 0%, #2ca0ca 100%);
   background-image: -o-linear-gradient(bottom, #3eb8e5 0%, #2ca0ca 100%);
@@ -84,7 +98,7 @@ img {
   -o-box-shadow: inset 0px 4px 1px #0b698b, 0px 2px 0px 1px #156785, 0px 5px 3px #999;
   box-shadow: inset 0px 4px 1px #0b698b, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
 }
-.yys-nav a + a {
+.yys-nav>a + a {
   margin: 5px 0;
 }
 /*# sourceMappingURL=./style.css.map */
