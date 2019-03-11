@@ -9,3 +9,7 @@ function test2() {
 function test3() {
   alert('aaaa');
 }
+
+function testVs() {
+    alert('aaaa');
+}
