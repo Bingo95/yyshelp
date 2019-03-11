@@ -1,3 +1,11 @@
 function test() {
-    alert("aaaa")
+  alert('aaaa');
+}
+
+function test2() {
+  alert('aaaa');
+}
+
+function test3() {
+  alert('aaaa');
 }
